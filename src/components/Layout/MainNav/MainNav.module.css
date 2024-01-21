@@ -1,0 +1,49 @@
+.my_navbar{
+    margin-top: -1.5rem !important;
+    background-color: #fff;
+    width: 100% !important;
+    padding-top: 0px !important;
+    position: fixed !important;
+}
+.navbrand{
+    margin-left: 90px;
+}
+.nav_img{
+    width: 100%;
+   max-width: 74px !important;
+    height: 50px !important;
+
+}
+.nav_links{
+    margin-right: 150px;
+}
+.link{
+    padding-right: 45px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #041b35;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* mobile screen */
+@media (max-width:990px) {
+    .my_navbar{
+        background-color:  #041b35;
+    }  
+    .link{
+        color: #fff !important;
+        text-align: left;
+        padding-left: 10px !important;
+        white-space: nowrap;
+        
+    }  
+    .navbrand{
+        margin-left: 20px;
+    }
+    
+
+}

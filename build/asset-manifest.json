@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8aff7f6a.css",
+    "main.js": "/static/js/main.03becf1a.js",
+    "static/js/787.31dcf147.chunk.js": "/static/js/787.31dcf147.chunk.js",
+    "static/media/image 3.svg": "/static/media/image 3.7607208e5be317feb0d6c9842f5a8be0.svg",
+    "static/media/PathwayBackground.png": "/static/media/PathwayBackground.f70e449be96dd91cf86a.png",
+    "static/media/contactbg.png": "/static/media/contactbg.cc001b37e9813b1add50.png",
+    "static/media/HeaderBackground.png": "/static/media/HeaderBackground.6985cb82ff4b3d1b71b0.png",
+    "static/media/501K WATERMARK (1).png": "/static/media/501K WATERMARK (1).91f53f63a070c821a16b.png",
+    "static/media/StudentsImage.png": "/static/media/StudentsImage.3af8fb7c792a3100feca.png",
+    "static/media/CenterImage.png": "/static/media/CenterImage.83168311fc12c897e175.png",
+    "static/media/StartupImg.png": "/static/media/StartupImg.56ad03da2567db3bcec7.png",
+    "static/media/PathwayImage.png": "/static/media/PathwayImage.40e5bca606483a05cf3f.png",
+    "static/media/StartupImage.png": "/static/media/StartupImage.88cdda665a2dead3c3c8.png",
+    "static/media/PieImage.png": "/static/media/PieImage.fc388b055d5a9a094662.png",
+    "static/media/Oswald.png": "/static/media/Oswald.10920239ff9cc87eaecf.png",
+    "static/media/Orezi.png": "/static/media/Orezi.1237ada46752c4e7286d.png",
+    "static/media/Brendan.png": "/static/media/Brendan.a8936761635b1774ac55.png",
+    "static/media/Deneal.png": "/static/media/Deneal.414e4dde26bc97350e81.png",
+    "static/media/LearnImage-removebg-preview.png": "/static/media/LearnImage-removebg-preview.ac18d3c7852be82ba13b.png",
+    "static/media/FirstMentor.png": "/static/media/FirstMentor.ce124a34836aad09932a.png",
+    "static/media/ThirdMentor.png": "/static/media/ThirdMentor.d0807fcb1b29ce24dd01.png",
+    "static/media/faq-section.png": "/static/media/faq-section.16ecab5f160ae7a7cc37.png",
+    "static/media/SecondMentor.png": "/static/media/SecondMentor.5bc04807fa034eed7bbd.png",
+    "static/media/SponsorImage.png": "/static/media/SponsorImage.b79b2a4ec5a4b2ce6f5c.png",
+    "static/media/newfooterlogo.png": "/static/media/newfooterlogo.8813544108f13d4b17dc.png",
+    "static/media/inter.gif": "/static/media/inter.2fcb3660634d45216bb7.gif",
+    "static/media/contact.png": "/static/media/contact.5f4fa8cf008f31bbc60b.png",
+    "static/media/PiePercentage.png": "/static/media/PiePercentage.ff54a83adb687027d973.png",
+    "index.html": "/index.html",
+    "main.8aff7f6a.css.map": "/static/css/main.8aff7f6a.css.map",
+    "main.03becf1a.js.map": "/static/js/main.03becf1a.js.map",
+    "787.31dcf147.chunk.js.map": "/static/js/787.31dcf147.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aff7f6a.css",
+    "static/js/main.03becf1a.js"
+  ]
+}

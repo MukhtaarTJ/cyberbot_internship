@@ -1,0 +1,136 @@
+.container{
+    background-color: #DAEDF8;
+}
+.pathway_container{
+    width: 90%;
+    margin: auto;
+}
+.pqthway_img_layout{
+    margin: auto;
+}
+.pathway_image{
+    width: 100%;
+    max-width: 450px;
+     display: block;
+     margin: 1rem auto;
+}
+.image_bar{
+    width: 100% !important;
+    max-width: 402px !important;
+    border-radius: 30px !important;
+    background: #FFC31A !important ;
+    margin: 2rem auto !important;
+    height: 30px !important;
+}
+.btn_layout{
+display: flex;
+justify-content: center;
+align-items: center;
+
+    
+}
+.btn{
+    padding: 5px 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;border: none;
+
+}
+.text_layout{
+    width: 100%;
+    max-width: 780px !important;
+    margin: auto !important;
+}
+.top_text_layout{
+    max-width: 580px;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
+.top_text{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    color: #9747FF;
+}
+.bottom_text{
+    font-size: 37px;
+    font-weight: 500;
+    color: black;
+    line-height: 40px;
+}
+.advert_layout{
+    max-width: 580px;
+margin-top: 3rem;
+
+}
+.advert{
+font-weight: 400;
+font-size: 37px;
+line-height: 44px;
+text-transform: capitalize;
+}
+.list_layout ul{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+}
+@media (max-width:770px) {
+    .image_bar{
+        display: none;
+    }
+    .btn{
+        font-size: 19px;
+        padding: 5px 20px;
+    }
+    .pathway_container{
+        margin: auto !important;
+        padding: auto !important;
+    }
+    .pathway_img_layout{
+        margin: auto !important;
+        padding: auto;
+    }
+    .text_layout{
+        margin: auto !important;
+        padding: auto;
+
+    }
+    .text_layout{
+        max-width: 356px !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .top_text_layout{
+        margin-bottom: -2rem;
+    }
+    .top_text{
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .bottom_text{
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center !important;
+        margin-bottom: -2rem;
+    }
+    .advert_layout{
+        width: 257px;
+
+    }
+    .advert{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: -2rem;
+    }
+    .list_layout ul{
+        width: 233px;
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 3rem;
+
+    }
+}

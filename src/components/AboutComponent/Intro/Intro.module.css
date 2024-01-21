@@ -1,0 +1,100 @@
+.container{
+    background: url(../../../Assets/501K\ WATERMARK\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 30em !important;
+    background-position-y: -25em;
+    
+}
+.intro_container{
+    width: 60% !important;
+    margin: 3rem auto !important;
+}
+.image_container{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* width: 25rem !important; */
+
+}
+.pie_percent{
+    width: 100% !important;
+max-width: 300px !important;
+
+}
+.pie_image{
+width: 100% !important;
+max-width: 300px !important;
+margin-top: -4rem !important;
+margin-left: 5rem !important;
+}
+.intro_layout{
+    width: 100% !important;
+    max-width: 377px !important;
+    margin-top: 8rem !important;
+    margin-left: -3rem;
+    /* margin-right: auto; */
+    
+}
+.intro_top_text{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.intro_bottom_text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.join_now_link{
+    padding: 5px 40px !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    background-color: #A259CEC9 !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    color: #0E113D !important;
+    text-decoration: none;
+}
+.faq_section{
+    width: 60% !important;
+    margin: 3rem auto !important;
+}
+.faq_img{
+    max-width: 100%;
+}
+
+@media (max-width: 770px) {
+        .intro_container{
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .pie_percent{
+        display: none;
+    }
+    .pie_image{
+        margin: 1rem auto !important;
+        max-width: 175px !important;
+        margin-left: 4rem !important;
+    }
+    .intro_layout{
+        width: 280px !important;
+        margin: auto;
+    }
+    .intro_top_text{
+        font-size: 17px;
+        line-height: 21px;
+        margin-top: -8rem !important;
+    }
+    .intro_bottom_text{
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .join_now_link{
+        font-size: 8px !important;
+        padding: 5.62px, 8px !important;
+        white-space: nowrap;
+    }
+}

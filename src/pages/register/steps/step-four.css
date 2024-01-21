@@ -1,0 +1,217 @@
+.containerss{
+  padding: 40px 150px 0px 150px;
+  margin: none;
+  
+}
+
+.mat-box{
+  background: linear-gradient(0deg, rgba(41, 45, 50, 0.66), rgba(41, 45, 50, 0.66)),
+  linear-gradient(90deg, #2D2732 0%, #383D56 100%),
+  linear-gradient(0deg, rgba(162, 89, 206, 0.66), rgba(162, 89, 206, 0.66));
+ 
+  padding: 50px 80px 40px 80px;
+  color: white;
+}
+
+.know, .update{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+
+
+.studys{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+}
+
+.studys input{
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: none;
+  color: #FFFFFF70;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.cv{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 18px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+}
+
+.cv .studyss, .resume{
+  display: flex;
+  flex-direction: column;
+}
+
+.cv .studyss select{
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: none;
+  color: #FFFFFF70;
+  margin-top: 5px;
+}
+
+.cv .resume input{
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: none;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.comments{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  
+}
+
+.comments textarea{
+  height: 150px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: #FFFFFF70;
+  margin-top: 5px;
+}
+
+.updatedd input{
+  background: none;
+  /* margin-top: 20px; */
+}
+
+.knownn input{
+  background: none;
+  /* margin-top: 20px; */
+}
+
+.know{
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+}
+
+.update{
+  font-size: 18px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+}
+
+button.yes{
+  border-radius: none;
+  margin-top: 10px;
+  /* margin-left: 83%; */
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  color: #2D2732;
+}
+
+button.mon{
+  border-radius: none;
+  margin-top: 10px;
+  /* margin-left: 83%; */
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  color: #2D2732;
+}
+
+.steppp{
+  display: flex;
+  justify-content: center;
+  gap: 450px;
+}
+
+
+@media screen and (max-width: 940px){
+  .cv{
+    flex-direction: column;
+  }
+
+  .know, .update{
+    gap: 1px;
+  }
+
+  .mat-box{
+    padding: 50px 20px 40px 20px;
+    font-size: 14px;
+  }
+
+  .updatedd input,
+  .knownn input{
+    margin-top: 15px;
+  }
+
+  .steppp{
+    gap: 60px;
+  }
+
+
+}
+
+@media screen and (max-width: 730px){
+
+  .mat-box{
+    padding: 50px 20px 40px 20px;
+    font-size: 14px;
+  }
+
+  .cv{
+    flex-direction: column;
+  }
+
+  .containerss{
+    padding: 40px 30px 40px 20px;
+    margin: none;
+    
+  }
+
+    
+  .know,
+  .update{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .knownn,
+  .updatedd{
+    margin-top: -40px;
+  }
+
+  .updated p{
+    margin-top: 40px;
+  }
+
+  .steppp{
+    gap: 20PX;
+  }
+  .yes,.mon{
+    background-color: #fff;
+    color: #2D2732;
+  }
+
+}
+
+
+

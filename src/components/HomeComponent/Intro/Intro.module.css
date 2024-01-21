@@ -1,0 +1,202 @@
+.container{
+    background: url(../../../Assets/501K\ WATERMARK\ \(1\).png);
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: -15em;
+    
+}
+.top_text_layout{
+    margin-top: 4rem;
+}
+.top_text{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header_image{
+    display: block;
+    padding: 0 70px;
+}
+.sponsors{
+    width: 100% !important;
+    max-width: 1200px !important;
+    display: block;
+    margin: 1rem auto;
+}
+
+/*  pathway container*/
+.pathway_container{
+    width: 80% !important;
+    /* display: block !important; */
+    margin: auto !important;
+}
+
+.intro_layout{
+    width: 100% !important;
+    max-width: 377px !important;
+    margin-top: 8rem !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.intro_top_text{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.intro_bottom_text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    /* border: 2px solid red !important; */
+}
+.join_now_link{
+    padding: 5px 40px !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    background-color: #A259CEC9 !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    color: #0E113D !important;
+    text-decoration: none;
+}
+/* career_starter_container */
+.career_starter_card{
+background-color: #0E113D;
+width: 100%;
+max-width: 440px;
+border-radius: 122px;
+height: 100%;
+}
+.header_layout{
+    width: 100%;
+    max-width: 185px;
+    display: block;
+    margin: 20px auto !important;
+
+}
+.header_text{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    padding-top: 2rem;
+    
+}
+.advert_layout{
+    width: 100%;
+    max-width: 303px;
+    /* height: 170px; */
+    margin: 30px auto;
+}
+.advert_text{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+    color: #fff;
+}
+.advert_list_layout{
+    color: #fff;
+    width: 100% !important;
+    max-width:  303px !important;
+    margin: 0 auto !important;
+}
+.advert_list_layout .my_list{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+}
+.learn_button_layout{
+    margin: 3rem auto !important;
+    width: 250px !important;
+}
+.learn_button{
+    padding: 10px 50px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    background-color: #fff;
+    border: none;
+}
+/* media query */
+@media (max-width:770px) {
+
+    .top_text_layout{
+        margin-top: 1rem;
+
+    }
+    .top_text{
+        padding-top: 0rem !important;
+        font-size: 13px !important;
+        /* margin-top: 6rem !important; */
+    }
+    .header_image{
+        display: block;
+        max-width: 400px;
+        display: block;
+        margin: auto;
+
+    }
+    .sponsors{
+        width: 100% !important;
+        max-width: 300px !important;
+        padding: 0 !important;
+    }
+    .intro_top_text{
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: -7rem !important;
+    }
+    .intro_bottom_text{
+        display: none !important;
+    }
+    .join_now_link{
+        font-size: 8px !important;
+        padding: 5.62px, 8px !important;
+        white-space: nowrap;
+    }
+    .header_text{
+        font-size: 21px !important;
+        line-height: 25px !important;
+    }
+    .advert_layout{
+        max-width: 185px !important;
+        margin: auto !important;
+        width: 100% !important;
+    }
+    .advert_text{
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .advert_list_layout {
+        max-width:210px !important;
+        margin:  2rem auto !important;
+        width: 100% !important;
+
+    }
+    ul{
+    }
+    .advert_list_layout .my_list{
+        font-size: 10px !important;
+        color: white;
+        white-space: nowrap;
+        line-height: 18px !important;
+        margin-left: -1rem;
+    }
+    .learn_button_layout{
+        margin: 2rem auto !important;
+        max-width: 115px;
+        display: block;
+        width: 100%;
+    }
+    .learn_button{
+     white-space: nowrap;
+     font-size: 12px;
+     padding: 5px 20px;
+     width: fit-content;
+    }
+}

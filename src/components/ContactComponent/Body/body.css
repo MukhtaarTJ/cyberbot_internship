@@ -1,0 +1,250 @@
+.Container{
+    background: url(../../../Assets/contactbg.png);
+    width: 100%; 
+    /* /* margin-top: 300px; */
+}
+
+.Container .mainn .inner .avater{
+    display: flex;
+    gap: 20px;
+}
+.Container .mainn .inner .avater p{
+    width: 260px;
+    margin-top: 10px;
+}
+.Container .mainn .inner h4{
+    margin-bottom: 40px;
+}
+
+.Container .mainn .non .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.Container .mainn .non .name input{
+    width: 535px;
+    height: 71px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.Container .mainn .non .name{
+    margin-top: 40px;
+}
+
+.Container .mainn .non .thoughts{
+    margin-top: 40px;    
+    /* border: 2px solid red; */
+}
+.label{
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.non{
+    background: #ffffff;
+    width: 100%;
+    padding: 30px 0px 30px 60px;
+    margin-left: 160px;
+}
+
+.Container .mainn .non .thoughts textarea{
+    width: 535px;
+    height: 228px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.Container .mainn .non .pick input{
+    width: 42px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Container .mainn .non .pick{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+
+.Container .mainn .non .pick p{
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mainn{
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 70px;
+  }
+
+.Container .mainn .non .pick p.data{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Container .mainn .non button{
+    width: 158px;
+    height: 54px;
+    background-color: #041B35;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* .Container .mainn .non .name label{
+    font-size: 18px;
+    font-family: 500;
+}
+.Container .mainn .non .thoughts label{
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: 500;
+} */
+
+@media screen and (max-width: 810px){
+    .Container .mainn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .non{
+        background: #ffffff;
+        width: 100%;
+        padding: 30px 0px 30px 60px;
+        margin-left: 0px;
+    }
+    .thoughts{
+        margin-left: 0 !important;
+    }
+    .label{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .data{
+        white-space: nowrap;
+    }
+    .text_layout{
+        width: 4rem !important;
+    }  
+}
+
+@media screen and (max-width: 430px){
+    .Container .mainn .non .name input{
+        width: 315px;
+        height: 41px;
+    }
+
+    .Container .mainn .non .thoughts textarea{
+        width: 315px;
+        height: 128px;
+    }
+
+   
+
+    .non{
+        background: #ffffff;
+        max-width: 100%;
+        padding: 30px 350px 30px 30px;
+        margin-left: -35px;
+    }
+
+    .Container .mainn .inner{
+        margin-left: -20px;
+    }
+    .thoughts{
+        margin-left: 0 !important;
+    }
+    .label{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .data{
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .Container .mainn .inner .avater p{
+       font-size: 14px;
+       margin-top: 25px;
+    }
+    .Container .mainn .inner h4{
+      font-size: 18px;
+      margin-bottom: 3px;
+    }
+
+    .Container .mainn .non .name input{
+        width: 305px;
+        height: 51px;
+    }
+
+    .Container .mainn .non .name label{
+        font-size: 13px;
+    }
+
+    .Container .mainn .non .thoughts label{
+        font-size: 13px;
+        white-space:  nowrap ;
+    }
+
+    .Container .mainn .non .thoughts textarea{
+        width: 305px;
+        height: 228px;
+        margin-left: 0;
+    }
+
+    .non{
+        margin-left: -35px;
+        padding: 30px 330px 30px 30px;
+    }
+    .label{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .data{
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .Container .mainn .inner .avater p{
+        font-size: 13px;
+    }
+
+    .non{
+        margin-left: -43px;
+    }
+    .label{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .pick{
+  width: 9rem;
+  /* border: 2px solid red !important; */
+    }
+    .data{
+        white-space: nowrap;
+    }
+   
+   
+}
+@media screen and (max-width: 800px){
+    .inner{
+        margin-top: 6rem !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .inner{
+        margin-top: 6rem !important;
+    }
+}

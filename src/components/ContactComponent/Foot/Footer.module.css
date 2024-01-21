@@ -1,0 +1,125 @@
+.container {
+  background-image: url(../../../Assets/background-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 500px;
+  width: 100%;
+  max-width: 1600px !important;
+  position: relative;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.form_container {
+  position: absolute;
+  top: 0rem;
+  max-width: 1500px !important;
+  width: 100%;
+
+  margin: auto;
+}
+.form_container form {
+  width: 100%;
+  max-width: 700px !important;
+  margin: auto;
+}
+.form_background {
+  background-color: #a259cec9;
+  width: 100% !important;
+  max-width: 700px !important;
+  white-space: nowrap;
+}
+.input_layout {
+  width: 100%;
+  max-width: 400px !important;
+  height: 30px;
+  outline: none;
+}
+.sub_btn {
+  padding: 5px 85px;
+  border: none;
+  background-color: #29acf6;
+  color: #ffffff;
+}
+.footer_contents {
+  width: 80% !important;
+  max-width: 900px !important;
+  margin: 10rem auto !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.background_logo{
+  width: 100%;
+  max-width: 180px;
+} 
+.first_list ul{
+  padding-top: 1rem;
+  list-style-type: none;
+
+  cursor: pointer;
+}
+li{
+  padding-top: 7px;
+}
+.second_list ul{
+  /* margin-top: 10rem auto !important; */
+  padding-top: 8rem;
+  list-style-type: none;
+  cursor: pointer;
+
+}
+.third_list{
+  margin-top: 6rem;
+}
+.third_list, img{
+
+padding-left: 20px;
+}
+.link{
+  text-decoration: none !important;
+color: #ffffff !important;
+
+}
+@media (max-width: 768px) {
+  .form_background {
+    max-width: 340px !important;
+  }
+  .input_layout {
+    max-width: 240px !important;
+  }
+  .sub_btn {
+    padding: 11px 10px;
+    font-size: 6px;
+  }
+  .container {
+    max-width: 1000px !important;
+    background-position: 35% 75% !important;
+    background-size: cover !important;
+    height: 400px !important;
+    /* max-height: 300px; */
+  }
+  .first_list ul{
+  padding-top: 2rem;
+  }
+  .second_list ul{
+    padding-top: 6rem;
+  }
+  li{
+    font-size: 8px;
+    white-space: nowrap;
+  }
+  .footer_contents{
+    margin: 3rem auto !important;
+  }
+  .third_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+  .third_list img{
+    padding-left: 6px;
+    width: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.container{
+    background: url(../../../Assets/HeaderBackground.png);
+    background-size: cover;
+    background-position: center;
+    height:100% !important;
+    max-height: 1003px !important;
+    width: 100% !important;
+    max-width: 1887px !important;
+}
+.image_container{
+    width: 100%;
+    max-width: 1050px !important;
+    display:block !important;
+    margin: 1rem auto !important;
+
+}
+.center_image{
+    max-width: 100%; 
+    height: auto; 
+
+}

@@ -1,0 +1,147 @@
+.container {
+  background: url(../../../Assets/PathwayBackground.png) no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: 20em;
+  height: 900px;
+  margin-top: 4rem;
+}
+.pathway_container {
+  width: 80% !important;
+  margin: auto !important;
+}
+
+.career_starter_card {
+  background-color: #29acf6f0;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 122px;
+  height: 100%;
+  max-height: 806px;
+  margin: 2rem auto;
+}
+.header_layout {
+  width: 100%;
+  max-width: 185px;
+  display: block;
+  margin: 20px auto !important;
+}
+.header_text {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  padding-top: 2rem;
+}
+.advert_layout {
+  width: 100%;
+  max-width: 303px;
+  /* height: 170px; */
+  margin: 30px auto;
+}
+.advert_text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 27px;
+  color: #fff;
+}
+.advert_list_layout {
+  color: #fff;
+  width: 100% !important;
+  max-width: 303px !important;
+  margin: 0 auto !important;
+}
+.advert_list_layout li {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 27px;
+}
+.learn_button_layout {
+  margin: 3rem auto;
+  width: 250px;
+}
+.learn_button {
+  padding: 10px 50px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  background-color: #fff;
+  border: none;
+}
+.entrepreneurship_card {
+  background-color: #000000;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 122px;
+  height: 100%;
+  margin: 2rem 0;
+}
+.entrepreneurship_card .advert_list_layout{
+  margin: 10px auto;
+  width: 90%;
+
+
+}
+.entrepreneurship_card .advert_list_layout li{
+}
+
+@media (max-width: 770px) {
+  
+  .header_text {
+    font-size: 21px !important;
+    line-height: 25px !important;
+  }
+  .advert_layout {
+    max-width: 185px !important;
+    margin: auto !important;
+    width: 100% !important;
+  }
+  .advert_text {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  .advert_list_layout {
+    max-width: 210px !important;
+    margin: 2rem auto !important;
+    width: 100% !important;
+  }
+  .advert_list_layout li {
+    font-size: 10px !important;
+    line-height: 18px !important;
+    margin-left: -1.5rem;
+    white-space: nowrap;
+  }
+  .learn_button_layout {
+    margin: 2rem auto !important;
+    max-width: 115px;
+    display: block;
+    width: 100%;
+  }
+  .learn_button {
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 5px 20px;
+    width: fit-content;
+  }
+  .entrepreneurship_card {
+    margin-top: 4rem !important;
+    margin-bottom:1rem !important;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .entrepreneurship_card .advert_list_layout {
+    /* border: 2px solid yellow; */
+    overflow: hidden; /* Add this property to prevent overflow */
+  }
+
+  .entrepreneurship_card li {
+    color: #fff;
+    white-space: normal !important; /* Change nowrap to normal to allow wrapping */
+    margin-left: 0; /* Reset margin */
+    font-size: 12px !important;
+    width: 120%; 
+  }
+
+}

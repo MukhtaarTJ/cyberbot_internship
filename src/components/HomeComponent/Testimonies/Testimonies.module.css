@@ -1,0 +1,44 @@
+.container{
+    width: 80% !important;
+    margin-top: 17rem !important;
+}
+.cheers_container{
+    background: url(../../../Assets/inter.gif);
+    background-position: center;
+    background-size: cover;
+}
+.cheers_text_layout{
+    width: 100%;
+    max-width: 311px !important;
+}
+.cheers_text{
+    font-weight: 700 !important;
+    font-size: 45px !important;
+    line-height: 67px !important;
+}
+@media (max-width:768px) {
+    .container{
+        margin-top: 40rem !important;
+        /* background: url(../../../Assets/Interactive\ testimonial\ section\ elements.json); */
+    }
+    .cheers_text_layout{
+        width: 100%;
+        max-width: 336px !important;
+        height: 255px !important;
+        margin-left:  auto;
+        margin-bottom: -5rem;
+        margin-right:  auto;
+        margin-top: 1rem;
+    }
+    .cheers_text{
+        font-weight: 700;
+        font-size: 30px !important;
+        line-height: 51px !important;
+        text-align: center !important;
+    }
+    .testimony_container{
+        width: 100%;
+        max-width: 600px !important;
+    }
+
+}

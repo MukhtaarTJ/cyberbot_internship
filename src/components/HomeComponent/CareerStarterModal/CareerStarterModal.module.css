@@ -1,0 +1,28 @@
+.learn_button_layout{
+    margin: 1rem auto  !important;
+    width: 250px !important;
+}
+.learn_button{
+    padding: 10px 50px !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    background-color: #fff !important;
+    border: none !important;
+    color: black !important;
+
+}
+@media (max-width:770px) {
+    .learn_button_layout{
+        margin: 2rem auto !important;
+        max-width: 115px !important;
+        display: block !important;
+        width: 100% !important;
+    }
+    .learn_button{
+     white-space: nowrap !important;
+     font-size: 12px !important;
+     padding: 5px 20px !important;
+     width: fit-content !important;
+    }
+}
