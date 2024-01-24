@@ -40,7 +40,7 @@ const Mentorship = () => {
               Today, I am proud to say that my startup thrives, thanks to the
               skills and knowledge I acquired during the 501k
               Startup/Entrepreneurs Program. 
-              <br /> <span className="fw-bold text-dark"> Isreal Ndu,.</span>
+              <br /> <span className="fw-bold text-dark"> Isreal Ndu.</span>
             </p>
           </div>
         </Col>

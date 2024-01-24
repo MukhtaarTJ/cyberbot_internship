@@ -57,7 +57,8 @@ const Intro = () => {
                   {" "}
                   CAREER-
                   <br /> STARTER
-                  <br /><span className="fs-4 fw-medium pt-0 text-white"> Internships. </span><br />
+                  <br />INTERNSHIP.
+                  <br /><span className="fs-4 fw-medium pt-0 text-white">  </span><br />
                   <span className="fs-6 text-uppercase fw-medium pt-0 text-white">
                     (free)
                   </span>
@@ -74,7 +75,7 @@ const Intro = () => {
                 <ul>
                   <li className={styles.my_list}>1 real-time-team project</li>
                   <li className={styles.my_list}>weekly mentor-ship (Once every week)</li>
-                  <li className={styles.my_list}>Certification of perticipation</li>
+                  <li className={styles.my_list}>Certification of participation</li>
                   <li className={styles.my_list}>Team Building & individual networking</li>
                 </ul>
               </div>
