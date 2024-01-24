@@ -58,7 +58,7 @@ const Intro = () => {
                   CAREER-
                   <br /> STARTER
                   <br />INTERNSHIP.
-                  <br /><span className="fs-4 fw-medium pt-0 text-white">  </span><br />
+                  <br />
                   <span className="fs-6 text-uppercase fw-medium pt-0 text-white">
                     (free)
                   </span>
