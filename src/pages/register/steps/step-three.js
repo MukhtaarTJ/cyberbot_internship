@@ -49,10 +49,9 @@ export default function StepThree() {
               <h2>
                 Hi <span>{data.last_name}</span>
               </h2>
-              <h5 className="con mb-5">
-                kindly Continue with your <br /> application.
-              </h5>
-              <p>we would love to know you better.</p>
+              <p>
+                kindly Continue with your application.<br/>
+                we would love to know you better.</p>
             </div>
 
             <div className="form-box">

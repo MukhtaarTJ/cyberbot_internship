@@ -133,8 +133,8 @@ export default function StepFour() {
     }
   };
 
-  return (
-    <div className="containers">
+  return ( 
+    <div className="containerss">
       <div className="mat-box">
         <form onSubmit={handleSubmit} className="mat">
         <div className="studys">
@@ -151,6 +151,29 @@ export default function StepFour() {
             />
             {validationErrors.relevant_skill && (
               <span className="error">{validationErrors.relevant_skill}</span>
+            )}
+          </div>
+
+          <div className="studys">
+            <label htmlFor="study">
+              Area of Internship Interest
+            </label>
+            <select value={data.intern_skill}
+              onChange={(e) =>
+                setData((prev) => ({ ...prev, intern_skill: e.target.value }))
+              }>
+              <option disabled>Select Area of Internship Interest</option>
+              <option>Graphic design </option>
+              <option>Product management </option>
+              <option>Product design ( UI/UX)</option>
+              <option>Frontend Software engineering</option>
+              <option>Backend Software engineering</option>
+              <option>social media content/strategy</option>
+              <option>IT support</option>
+              <option>Cyber security</option>
+            </select>
+            {validationErrors.relevant_skill && (
+              <span className="error">{validationErrors.intern_skill}</span>
             )}
           </div>
 
