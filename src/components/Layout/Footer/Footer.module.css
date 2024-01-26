@@ -64,16 +64,16 @@ li{
 }
 .second_list ul{
   /* margin-top: 10rem auto !important; */
-  margin-top: 10rem;
+  margin-top: 8rem;
   list-style-type: none;
   cursor: pointer;
 
 }
 .third_list{
-  margin-top: 9 rem;
+  margin-top: 6rem;
 }
 .third_list, img{
-
+  
 padding-left: 20px;
 }
 .link{
