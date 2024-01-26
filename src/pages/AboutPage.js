@@ -7,6 +7,7 @@ import PathWay from '../components/AboutComponent/PathWay/PathWay'
 import Footer from "../components/Layout/Footer/Footer"
 import styles from "../components/AboutComponent/StartUps/StartUps"
 import StartUps from '../components/AboutComponent/StartUps/StartUps'
+import Fot from '../components/AboutComponent/Fot/fot'
 
 const AboutPage = () => {
   return (
@@ -17,6 +18,7 @@ const AboutPage = () => {
       <CareerStarter/>
       <PathWay/>
       <StartUps/>
+      <Fot/>
     <Footer/>
     </div>
   )

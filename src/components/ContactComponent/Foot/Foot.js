@@ -3,9 +3,10 @@ import styles from "./Footer.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 import BackgroundLogo from "../../../Assets/newfooterlogo.png";
 import envelope from "../../../Assets/envelope.png";
-import whatsapp from "../../../Assets/whatsapp.png";
-import linkedin from "../../../Assets/linkdn.png";
 import twitter from "../../../Assets/twitter.png";
+import instagram from "../../../Assets/instagram.png";
+import linkedin from "../../../Assets/linkdn.png";
+import tiktok from "../../../Assets/tiktok.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -35,10 +36,11 @@ const Footer = () => {
         </div>
         <div>
           <div className={styles.third_list}>
-           <a><img src={envelope} alt="" /></a> 
-            <img src={twitter} alt="" />
-            <a href="https://www.linkedin.com/company/product-square-technologies/" className={styles.link}> <img src={linkedin} alt="" /></a>
-            {/* <img src={whatsapp} alt="" /> */}
+              <a href="mailto@productsquare.tech" className={styles.link}> <img src={envelope} alt="" /></a>
+              <a href="https://x.com/productsquare1?s=21" className={styles.link}> <img src={twitter} alt="" /></a>
+              <a href="https://www.linkedin.com/company/product-square-technologies/" className={styles.link}> <img src={linkedin} alt="" /></a>
+              <a href="https://www.instagram.com/productsquaretech/" className={styles.link}> <img src={instagram} alt="" /></a>
+              <a href="https://x.com/productsquare1?s=21" className={styles.link}> <img src={tiktok} alt="" /></a>
           </div>
           <p style={{color:"white", padding:"2rem"}}>@Productsquare</p>
 

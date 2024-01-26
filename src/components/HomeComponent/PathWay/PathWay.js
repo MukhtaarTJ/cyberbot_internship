@@ -19,7 +19,7 @@ const PathWay = () => {
                   <br />INTERNSHIP.
                   <br />
                   <p className="fs-6 text-uppercase fw-medium pt-0 text-white">(
-                   <span style={{textDecoration:"line-through", color:"white"}}>$120</span> Offered At $15 Through Bistrapay)
+                   <span style={{textDecoration:"line-through", color:"white"}}>$20</span> Offered At $15 Through Bistrapay)
                   </p>
                 </p>
               </div>
