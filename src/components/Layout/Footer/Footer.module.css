@@ -64,13 +64,13 @@ li{
 }
 .second_list ul{
   /* margin-top: 10rem auto !important; */
-  padding-top: 8rem;
+  margin-top: 10rem;
   list-style-type: none;
   cursor: pointer;
 
 }
 .third_list{
-  margin-top: 6rem;
+  margin-top: 9 rem;
 }
 .third_list, img{
 
@@ -80,6 +80,14 @@ padding-left: 20px;
   text-decoration: none !important;
 color: #ffffff !important;
 
+}
+
+.fourth_list{
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  
+  
 }
 @media (max-width: 768px) {
   .form_background {

@@ -34,25 +34,29 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
-          <div className={styles.second_list}>
-            <ul style={{ color: "white" }}>
-              <li><Link to="/about" className={styles.link}>About Us </Link></li>
-              <li>Our Internship</li>
-              <li>Newsletter</li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <div className={styles.third_list}>
-           <a><img src={envelope} alt="" /></a> 
-            <img src={twitter} alt="" />
-            <a href="https://www.linkedin.com/company/product-square-technologies/" className={styles.link}> <img src={linkedin} alt="" /></a>
-            {/* <img src={whatsapp} alt="" /> */}
-          </div>
-          <p style={{color:"white", padding:"2rem"}}>@Productsquare</p>
 
+        <div className={styles.fourth_list}>
+          <div>
+            <div className={styles.second_list}>
+              <ul style={{ color: "white" }}>
+                <li><Link to="/about" className={styles.link}>About Us </Link></li>
+                <li>Our Internship</li>
+                <li>Newsletter</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div className={styles.third_list}>
+            <a><img src={envelope} alt="" /></a> 
+              <img src={twitter} alt="" />
+              <a href="https://www.linkedin.com/company/product-square-technologies/" className={styles.link}> <img src={linkedin} alt="" /></a>
+              {/* <img src={whatsapp} alt="" /> */}
+            </div>
+            <p style={{color:"white", padding:"2rem"}}>@Productsquare</p>
+
+          </div>
         </div>
+        
       </div>
     </Container>
   );
